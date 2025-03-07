@@ -13,4 +13,12 @@ export class User {
         return this._token;
     }
 
+    // toJSON() {
+    //     return {
+    //         email: this.email,
+    //         id: this.id,
+    //         _token: this._token,
+    //         _tokenExpirationDate: new Date(this._tokenExpirationDate),
+    //     }
+    // }
 }
